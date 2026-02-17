@@ -1,18 +1,21 @@
 # Q1 : Empreinte mémroire en mode JVM ?
 Réponse:
+   2821 197448 java -jar target/quarkus-app/quarkus-run.jar
+   3774  2304 grep quarkus-run
+
+   soit 197448KB
 
 # Q2: Temps et  taille  réponse   liste les questions
-Temps:
-Taille:
+Time: 0.544215s
+Size: 158 bytes
 
 # Q3: Temps et  taille  réponse  liste des propositions
-Temps:
-Taille:
+Time: 0.158879s
+Size: 115 bytes
 
 # Q4: Temps et  taille  réponse  évaluation les réponses
-Temps:
-Taille:
-
+Time: 0.104302s
+Size: 1 bytes
 # Q5 : Empreinte mémroire en mode natif ?
 Réponse:
 
